@@ -18,4 +18,4 @@ source_code_compiled="<?php $code_compiled_in_pys='"+base64_string+"';eval(base6
 with open("encoded_"+str(source_file), "w") as text_file:
     text_file.write(source_code_compiled)
 print("File secured:Success\n")
-print("Comiled to >>"+"encoded_"+str(source_file))
+print("Comiled to >>"+"encoded_"+str(source_file)+"status:success")
